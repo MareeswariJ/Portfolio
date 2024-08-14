@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Education from '../components/Education'
 
 export default function Home() {
   return (
@@ -34,6 +35,12 @@ export default function Home() {
                 </div>
             </div>
         </div>
+        <section className="education">
+            <h2 className="education-heading">
+                Professional & Academic Hightlights
+            </h2>
+            <Education/>
+        </section>
     </Fragment>
   )
 }
