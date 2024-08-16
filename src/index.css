@@ -390,3 +390,17 @@ span{
     line-height: 22px;
     font-size: 16px;
 }
+
+
+/* services start------------------------- */
+.services{
+    background-color: var(--bg-color);
+    margin: 5rem 0;
+}
+.services-heading{
+    text-align: center;
+}
+
+.services-icon svg{
+    color:white;
+}
