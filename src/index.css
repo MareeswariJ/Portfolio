@@ -341,7 +341,7 @@ span{
 
 .education-item:nth-child(odd){
     padding-right: calc(50%+30px);
-    text-align: right;
+    text-align: left;
 }
 .education-item:nth-child(even){
     padding-left: calc(50%+30px);
@@ -377,4 +377,16 @@ span{
 .education-content:hover{
     transform: scale(1.05);
     box-shadow: 0 0 25px #88D66C;
+}
+
+.education-content h3{
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.education-content p{
+    line-height: 22px;
+    font-size: 16px;
 }
