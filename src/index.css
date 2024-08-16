@@ -299,7 +299,7 @@ span{
 }
 
 
-/* education start----------------------------------------------------- */
+education start-----------------------------------------------------
 .education-heading{
     font-size: 3.5rem;
     text-align: center;
@@ -395,12 +395,51 @@ span{
 /* services start------------------------- */
 .services{
     background-color: var(--bg-color);
-    margin: 5rem 0;
 }
 .services-heading{
     text-align: center;
 }
 
+.services-icon {
+    place-content: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 10px;
+
+}
 .services-icon svg{
-    color:white;
+    align-items: center;
+}
+
+.services-item{
+    display: flex;
+    margin: 3rem;
+    place-content: center;
+    gap: 80px;
+
+
+}
+
+.services-items{
+    padding: 1rem;
+    border-radius: 10%;
+    background-color: #88D66C;    
+}
+
+.services-content h2{
+    text-align: center;
+    margin: 0 0 2rem;
+    line-height: 20px;
+    color: var(--bg-color) !important;
+    font-weight: 900;
+    font-size: 25px;
+}
+.services-items li{
+    list-style-type: none;
+    
+}
+.services-list li strong{
+    justify-content: center;
+    color: var(--second-bg-color) !important;   
+
 }
