@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 import Education from '../components/Education'
 import Services from '../components/Services'
+import Project from '../components/Project'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -49,6 +52,21 @@ export default function Home() {
             </h2>
             <Services/>
         </section>
+        <section className='container'>
+            <h2 className='Project-heading'>
+                Projects
+            </h2>
+            <Project/>
+        </section>
+        <section className='contact'>
+            <h2 className="contact-heading">
+                Contact <span>Me</span>
+            </h2>
+            <Contact/>
+        </section>
+       <footer>
+        <Footer/>
+       </footer>
     </Fragment>
   )
 }

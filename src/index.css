@@ -299,9 +299,9 @@ span{
 }
 
 
-education start-----------------------------------------------------
+/* education start----------------------------------------------------- */
 .education-heading{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .education{
@@ -398,6 +398,7 @@ education start-----------------------------------------------------
 }
 .services-heading{
     text-align: center;
+    font-size: 2.5rem
 }
 
 .services-icon {
@@ -453,3 +454,71 @@ education start-----------------------------------------------------
     0 0 25px #88D66C;
 }
 
+/* project start-------------------------- */
+.Project-heading{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 0 2rem;
+}
+.project-item{
+    background-color: var(--second-bg-color);
+    display: flex;
+    padding: 29px;
+    place-content: center;
+    justify-content: space-evenly;    
+    column-gap: 10px;
+    row-gap: 60px;
+    }
+.project-items{
+    border: 5px solid var(--bg-color);
+    height: 230px;
+    padding: 5px;
+    background-color: var(--bg-color);
+    justify-content: center;
+    box-shadow: 0 0 10px #88D66C,
+    0 0 10px #88D66C,
+    0 0 25px #88D66C;
+    
+}
+
+.project-img{
+    padding: 3px;
+    margin-top: 2px;
+}
+
+.project-content a{
+    text-decoration: none;
+    color: #88D66C;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project-items:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #88D66C;
+}
+
+/* contact start------------------------------------------------ */
+.contact-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact{
+    background-color: var(--bg-color);
+}
+
+.contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.contact form input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
