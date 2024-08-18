@@ -42,6 +42,7 @@ export default function Home() {
             </h2>
             <Education/>
         </section>
+        <br />
         <section className="services">
             <h2 className="services-heading">
                 Services
