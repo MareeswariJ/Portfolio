@@ -4,7 +4,9 @@ export default function Contact(){
     return(
         <Fragment>
             <form action="">
-                <div className="input-group">
+                <div className="row">
+                    <div className="col-lg-6">
+                    <div className="input-group">
                     <div className="input-box">
                         <input type="text" placeholder="Fullname"/>
                         <input type="text" placeholder="Email"/>
@@ -14,11 +16,21 @@ export default function Contact(){
                         <input type="text" placeholder="Subject"/>
                     </div>
                 </div>
-                <div className="input-group2">
+                    </div>
+                    <div className="col-lg-6">
+                    <div className="input-group">
                     <textarea name="" cols="30" rows="10" placeholder="your message" id=""></textarea>
-                    <button className='banner-download'>Submit</button>
+                       
+                </div>
+                    </div>
+                    <div className="contact-btn">
+                        <button >Submit</button>
+
+                        </div>
 
                 </div>
+                
+                
             </form>
             
         </Fragment>

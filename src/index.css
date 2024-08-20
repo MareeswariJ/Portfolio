@@ -508,17 +508,96 @@ span{
     background-color: var(--bg-color);
 }
 
-.contact form{
+ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:3rem;
     margin: 5rem auto;
     text-align: center;
 }
 
-.contact form input-box{
+.input-box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap
+}
+
+.input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--second-bg-color);
+    color: #88D66C;
+    border: 2px solid #88D66C;
+    margin: 1rem;
+}
+.input-box input:hover{
+    box-shadow: 0 0 5px #88D66C,
+    0 0 10px #88D66C;
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.contact-btn button{
+    background-color: var(--bg-color);
+    color: #88D66C;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.contact-btn button:hover{
+    background-color: #88D66C;
+    color: var(--bg-color);
+}
+
+
+footer start--------------------
+.social{
+    display: inline-flex;
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.menus li{
+    list-style: none;
+}
+.menus a{
+    text-decoration: none;
+    color: white;
+}
+.menus a:hover{
+    color: #88D66C;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 20px;
+    
+}
+
+.social a{
+    border: 2px solid #88D66C;
+    border-radius: 40px;
+    display: inline-flex;
+    padding: 5px;
+    text-decoration: none;
+    color: #88D66C;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.05);
 }

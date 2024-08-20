@@ -10,7 +10,8 @@ export default function Footer(){
                             <a href="https://www.linkedin.com/in/jmareeswari0/"><i class="fa-brands fa-linkedin"></i></a>
                             <a href=""><i class="fa-brands fa-github"></i></a>
                 </div>
-                <ul className="list">
+                <div >
+                <ul className="menus">
                    <li>
                     <a href="">Home</a>
                     </li> 
@@ -27,6 +28,8 @@ export default function Footer(){
                         <a href="">Contact</a>
                     </li>
                 </ul>
+                </div>
+               
                 <p className="copyright">
                     @ Mareeswari || All Rights Reserved
                 </p>
