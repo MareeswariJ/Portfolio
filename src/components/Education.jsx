@@ -3,9 +3,8 @@ export default function Education() {
         <>
 
             <div className="education-items">
-                <div className="row">
-                    <div className="col-lg-6">
-                    <div className="education-item">
+                
+                <div className="education-item">
                     <div className="education-dot"></div>
                     <div className="education-date">
                         Jan 2024 - Present
@@ -35,14 +34,7 @@ export default function Education() {
                         </p>
                     </div>
                 </div>
-                    </div>
-                    <div className="col-lg-6">
-
-                    </div>
-                    <div className="col-lg-6">
-                    </div>
-                    <div className="col-lg-6">
-                         <div className="education-item">
+                <div className="education-item">
                 <div className="education-dot"></div>
 
                     <div className="education-date">
@@ -62,9 +54,7 @@ export default function Education() {
                         </p>
                     </div>
                 </div>
-                    </div>
-                    <div className="col-lg-6">
-                    <div className="education-item">
+                <div className="education-item">
                 <div className="education-dot"></div>
 
                     <div className="education-date">
@@ -82,11 +72,6 @@ export default function Education() {
                             Developed using VB.NET and SQL, this project manages textile inventory, focusing on purchase and sales tracking, as well as stock counting.                    </p>
                     </div>
                 </div>
-                    </div>
-                </div>
-                
-                
-                
             </div>
         </>
     )
