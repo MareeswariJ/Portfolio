@@ -15,13 +15,13 @@ export default function Contact(){
                         <input type="number" placeholder="Phone"/>
                         <input type="text" placeholder="Subject"/>
                     </div>
-                </div>
+                    </div>
                     </div>
                     <div className="col-lg-6">
                     <div className="input-group">
-                    <textarea name="" cols="30" rows="10" placeholder="your message" id=""></textarea>
+                    <textarea name="" cols="20" rows="10" placeholder="your message" id=""></textarea>
                        
-                </div>
+                      </div>
                     </div>
                     <div className="contact-btn">
                         <button >Submit</button>

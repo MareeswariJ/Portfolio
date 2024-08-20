@@ -493,6 +493,10 @@ span{
     cursor: pointer;
 }
 
+.project-content h4{
+    margin-top: 20px;
+}
+
 .project-items:hover{
     transform: scale(1.05);
     box-shadow: 0 0 25px #88D66C;
@@ -532,6 +536,7 @@ span{
     border: 2px solid #88D66C;
     margin: 1rem;
 }
+
 .input-box input:hover{
     box-shadow: 0 0 5px #88D66C,
     0 0 10px #88D66C;
@@ -555,7 +560,7 @@ span{
 }
 
 
-footer start--------------------
+/* footer start-------------------- */
 .social{
     display: inline-flex;
 }
