@@ -633,7 +633,7 @@ span{
     background-color: var(--bg-color);
 }
 
- form{
+ /* form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -679,7 +679,91 @@ span{
     background-color: #88D66C;
     color: var(--bg-color);
 }
+ */
+/* Base styles for contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    text-align: center;
+    max-width: 800px;
+}
 
+.input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-box input,
+.contact form textarea {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--second-bg-color);
+    color: #88D66C;
+    border: 2px solid #88D66C;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+.input-box input:hover,
+.contact form textarea:hover {
+    box-shadow: 0 0 5px #88D66C, 0 0 10px #88D66C;
+}
+
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.contact-btn button {
+    background-color: var(--bg-color);
+    color: #88D66C;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-btn button:hover {
+    background-color: #88D66C;
+    color: var(--bg-color);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .input-box {
+        flex-direction: column;
+    }
+
+    .input-box input,
+    .contact form textarea {
+        width: calc(100% - 1rem); /* Adjust width for smaller screens */
+        margin: 0.5rem 0; /* Reduce margin for smaller screens */
+    }
+
+    .contact-btn button {
+        padding: 0.5rem 1.5rem; /* Adjust button padding for smaller screens */
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-btn button {
+        width: 100%; /* Full-width button on very small screens */
+    }
+
+    .input-box input,
+    .contact form textarea {
+        font-size: 0.875rem; /* Further reduce font size for very small screens */
+        padding: 0.75rem; /* Adjust padding for very small screens */
+    }
+}
 
 /* footer start-------------------- */
 .social{

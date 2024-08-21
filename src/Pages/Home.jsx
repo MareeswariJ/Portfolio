@@ -19,7 +19,9 @@ export default function Home() {
                             <div className="banner-para">
                                 <p>As a dedicated MERN stack developer and MCA graduate, I have honed my skills through a comprehensive 6-month internship, where I had the opportunity to work on live projects that pushed the boundaries of my technical expertise. My hands-on experience includes developing and deploying web applications, collaborating closely with clients to understand their needs, and participating in meetings to ensure the successful delivery of projects. My journey has equipped me with a strong foundation in full-stack development, and I am passionate about building innovative, efficient, and scalable solutions.</p>
                             </div>
+                            <a href="https://drive.google.com/file/d/1u3__GdLW37iTnGXE_WfZFhBrEF5872ZO/view" target="_blank" >
                             <button className='banner-download'>DOWNLOAD CV <i class="fa-solid fa-download"></i></button>
+                            </a>
                             <div className="social-icons">
                                 <a href='tel:+91 6379050391' target="_blank"><i class="fa-solid fa-phone"></i></a>
                                 <a href="mailto:jmareeswari0@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a>
@@ -65,7 +67,7 @@ export default function Home() {
                 <h2 className="contact-heading">
                     Contact <span>Me</span>
                 </h2>
-                {/* <Contact/> */}
+                <Contact/>
             </section>
             <footer>
                 <Footer />
