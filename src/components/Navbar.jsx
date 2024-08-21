@@ -10,11 +10,11 @@ export default function Navigation(){
   </button>
   <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
     <div class="navbar-nav mx-auto">
-      <a class="nav-item nav-link active" href="#">HOME</a>
-      <a class="nav-item nav-link" href="#">SERVICES</a>
-      <a class="nav-item nav-link" href="#">ABOUT</a>
-      <a class="nav-item nav-link " href="#">PROJECT</a>
-      <a class="nav-item nav-link " href="#">CONTACT</a>
+      <a class="nav-item nav-link active" href="#home">HOME</a>
+      <a class="nav-item nav-link" href="#about">ABOUT</a>
+      <a class="nav-item nav-link" href="#services">SERVICES</a>
+      <a class="nav-item nav-link " href="#projects">PROJECT</a>
+      <a class="nav-item nav-link " href="#contact">CONTACT</a>
 
     </div>
   </div>
