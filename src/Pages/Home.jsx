@@ -39,14 +39,14 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <section className="education">
+        <section className="education mt-0">
             <h2 className="education-heading">
                 Professional & Academic Hightlights
             </h2>
             <Education/>
         </section>
         <br />
-        <section className="services">
+        <section className="services mt-0">
             <h2 className="services-heading">
                 Services
             </h2>
@@ -62,7 +62,7 @@ export default function Home() {
             <h2 className="contact-heading">
                 Contact <span>Me</span>
             </h2>
-            {/* <Contact/> */}
+            <Contact/>
         </section>
        <footer>
         <Footer/>
