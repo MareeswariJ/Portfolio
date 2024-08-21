@@ -62,7 +62,7 @@ export default function Home() {
             <h2 className="contact-heading">
                 Contact <span>Me</span>
             </h2>
-            <Contact/>
+            {/* <Contact/> */}
         </section>
        <footer>
         <Footer/>

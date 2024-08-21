@@ -38,7 +38,7 @@ export default function Education() {
                 <div className="education-dot"></div>
 
                     <div className="education-date">
-                        sep 2022 - apr 2024
+                        Sep 2022 - Apr 2024
                     </div>
                     <div className="education-content">
                         <h3>MCA- Master Of Computer Applications</h3>
@@ -58,7 +58,7 @@ export default function Education() {
                 <div className="education-dot"></div>
 
                     <div className="education-date">
-                        apr 2019 - may 2022
+                        Apr 2019 - May 2022
                     </div>
                     <div className="education-content">
                         <h3>BCA- Bachelor Of Computer Applications</h3>
