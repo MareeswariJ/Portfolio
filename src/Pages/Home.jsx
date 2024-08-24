@@ -6,6 +6,15 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
 export default function Home() {
+    const handleDownload =  ((e)=>{
+        e.preventDefault();
+        const link = document.createElement('a');
+        link.href = './Mareeswari J.pdf';
+        link.download='Mareeswari J.pdf'
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    })
     return (
         <Fragment>
             <div className="container-fluid" id="home">
@@ -17,11 +26,29 @@ export default function Home() {
                                 <h2 className='banner-animation'>I'm a <span></span></h2>
                             </div>
                             <div className="banner-para">
-                                <p>As a dedicated MERN stack developer and MCA graduate, I have honed my skills through a comprehensive 6-month internship, where I had the opportunity to work on live projects that pushed the boundaries of my technical expertise. My hands-on experience includes developing and deploying web applications, collaborating closely with clients to understand their needs, and participating in meetings to ensure the successful delivery of projects. My journey has equipped me with a strong foundation in full-stack development, and I am passionate about building innovative, efficient, and scalable solutions.</p>
+                                <p>
+                                    As a skilled MERN Stack Developer with a strong MCA background, I specialize in crafting dynamic and scalable web applications. With 7 months of practical experience, including a 4-month internship and 3 months as a full-time developer, I have successfully delivered multiple projects that showcase my expertise in both front-end and back-end technologies. My portfolio highlights my proficiency in React, Node.js, Express, and MongoDB, demonstrating my ability to create innovative solutions and collaborate effectively with teams. Explore my work to see how I transform ideas into impactful digital experiences.
+
+                                </p>
                             </div>
-                            <a href="https://drive.google.com/file/d/1u3__GdLW37iTnGXE_WfZFhBrEF5872ZO/view" target="_blank" >
-                            <button className='banner-download'>DOWNLOAD CV <i class="fa-solid fa-download"></i></button>
-                            </a>
+                            <div className="hireme">
+                                <div className="contact-hire">
+                                    {/* <a href="https://drive.google.com/file/d/1u3__GdLW37iTnGXE_WfZFhBrEF5872ZO/view" target="_blank" rel="noopener noreferrer"> */}
+                                        <button className="banner-download" onClick={handleDownload}>
+                                            DOWNLOAD CV <i className="fa-solid fa-download"></i>
+                                        </button>
+                                    
+                                </div>
+                                <div className="contact-hire1">
+                                    <a href="#contact">
+                                        <button className="banner-download">HIRE ME</button>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+
                             <div className="social-icons">
                                 <a href='tel:+91 6379050391' target="_blank"><i class="fa-solid fa-phone"></i></a>
                                 <a href="mailto:jmareeswari0@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a>
@@ -37,7 +64,7 @@ export default function Home() {
                     <div className="col-lg-5 order-sm-0 order-lg-1 col-sm-12">
                         <div className="container">
                             <div className="banner-img">
-                                <img src="./images/banneimg.png" alt="WEBDEVELOPER" />
+                                <img src="./images/banneimg.png" alt="WEBDEVELOPER"/>
                             </div>
 
                         </div>
@@ -59,15 +86,15 @@ export default function Home() {
             </section>
             <section className='container' id="projects">
                 <h2 className='Project-heading'>
-                    Projects
-                </h2>
+                Project Highlights               
+                 </h2>
                 <Project />
             </section>
             <section className='contact' id="contact">
                 <h2 className="contact-heading">
                     Contact <span>Me</span>
                 </h2>
-                <Contact/>
+                <Contact />
             </section>
             <footer>
                 <Footer />
