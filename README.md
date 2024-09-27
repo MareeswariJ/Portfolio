@@ -17,4 +17,10 @@ HTML5: Structuring the content of web pages.
 CSS3: Styling the layout and appearance of the site.
 JavaScript (ES6+): Interactivity and logic for dynamic components.
 React.js: For building the frontend user interface.
+
+Backend
+Node.js: Runtime environment for executing JavaScript on the server.
+Express.js: Web framework for handling backend routing and API requests.
+MongoDB: Database for storing project information, user data, and more.
+
 Bootstrap: For responsive design and layout structure
