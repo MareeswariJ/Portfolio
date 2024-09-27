@@ -9,3 +9,12 @@ Organized sections for skills, technologies, and contact information.
 Fully responsive design for optimal viewing across all device sizes.
 Dynamic project gallery using React components.
 
+Technologies Used
+The following technologies and tools were used in building this portfolio:
+
+Frontend
+HTML5: Structuring the content of web pages.
+CSS3: Styling the layout and appearance of the site.
+JavaScript (ES6+): Interactivity and logic for dynamic components.
+React.js: For building the frontend user interface.
+Bootstrap: For responsive design and layout structure
