@@ -3,39 +3,28 @@ export default function Education() {
         <>
 
             <div className="education-items">
-                
+
                 <div className="education-item">
                     <div className="education-dot"></div>
                     <div className="education-date">
-                        Jan 2024 - Present
+                        Oct 2024 - Present
                     </div>
                     <div className="education-content">
                         <h3>MERN Stack Developer</h3>
                         <h6>Virtue Corporate, Coimbatoe</h6>
                         <p>
-                            <ul>
-                                <li>
-                                    Full Stack Developer at Virtue Corporate: Completed a 3-month internship and transitioned to a full-time role.
-                                </li>
-                                <li>
-                                    Project Development: Worked on MERN stack projects, including development and deployment.
-                                </li>
-                                <li>
-                                    Hosting and Deployment: Utilized GoDaddy and FileZilla for hosting, similar to Vercel and cPanel.
-                                </li>
-                                <li>
-                                    Project Management: Managed live projects, ensuring they remain operational.
+                            <ul> <li> Full Stack Developer at Virtue Corporate: Worked as a full-time developer, managing and delivering various projects. </li> <li> Project Development: Led the development and deployment of MERN stack projects from concept to completion. </li> <li> Hosting and Deployment: Proficient in hosting and deployment using platforms like GoDaddy, FileZilla, Vercel, and cPanel. </li> <li> Project Management: Successfully managed live projects, ensuring smooth operation and maintenance. </li> <li> Collaboration: Actively engaged in client and team meetings to ensure effective communication and coordination throughout project phases. </li> </ul>
 
-                                </li>
-                                <li>
-                                    Collaboration: Actively participated in live meetings for effective project communication and coordination.
-                                </li>
-                            </ul>
+
+
+
+
+
                         </p>
                     </div>
                 </div>
                 <div className="education-item">
-                <div className="education-dot"></div>
+                    <div className="education-dot"></div>
 
                     <div className="education-date">
                         Sep 2022 - Apr 2024
@@ -55,7 +44,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div className="education-item">
-                <div className="education-dot"></div>
+                    <div className="education-dot"></div>
 
                     <div className="education-date">
                         Apr 2019 - May 2022

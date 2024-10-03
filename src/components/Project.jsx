@@ -4,6 +4,15 @@ export default  function Project(){
     return(
         <Fragment>
             <div className="project-item row">
+            <div className="col-lg-3 project-items">
+                        <div className="container project-img">
+                            <img src="./images/one.png" alt="gstudio" className="img-fluid" />
+                        </div>
+                        <div className="project-content">
+                            <a href="https://bakery-management-system-ochre.vercel.app/"><h4>Bakery Management System</h4></a>
+                        </div>
+
+                    </div>
                     <div className="col-lg-3 project-items">
                         <div className="container project-img">
                             <img src="./images/gstudio1.png" alt="gstudio" className="img-fluid" />

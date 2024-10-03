@@ -27,8 +27,7 @@ export default function Home() {
                             </div>
                             <div className="banner-para">
                                 <p>
-                                    As a skilled MERN Stack Developer with a strong MCA background, I specialize in crafting dynamic and scalable web applications. With 7 months of practical experience, including a 4-month internship and 3 months as a full-time developer, I have successfully delivered multiple projects that showcase my expertise in both front-end and back-end technologies. My portfolio highlights my proficiency in React, Node.js, Express, and MongoDB, demonstrating my ability to create innovative solutions and collaborate effectively with teams. Explore my work to see how I transform ideas into impactful digital experiences.
-
+                                As a skilled MERN Stack Developer with a strong MCA background, I specialize in crafting dynamic and scalable web applications. With 1 year of practical experience as a full-time developer, I have successfully delivered multiple projects that showcase my expertise in both front-end and back-end technologies. My portfolio highlights my proficiency in React, Node.js, Express, and MongoDB, demonstrating my ability to create innovative solutions and collaborate effectively with teams. Explore my work to see how I transform ideas into impactful digital experiences.
                                 </p>
                             </div>
                             <div className="hireme">
